@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.Pai{
+			height: 51vh;
+			background-color: #55efc4;
+		}
+		.botao{
+			border: 4px solid white;
+			border-radius: 8px;
+			background-color: #55efc4;
+			width: 500px;
+			height: 50px;
+			font-size: 23px;
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		.botao:hover{
+			background-color: white;
+			width: 550px;
+			height: 60px;
+		}
+		.esconder{
+    	display: none;
+		}
+		.inner{
+    		display: block;
+    		background-color: #ffbe76;
+   			height: 75px;
+    		width: 500px;
+    		font-size: 25px;
+    		margin-top: 10px;
+    		border-radius: 6px;
+		}
+		.inner:hover{
+			background-color: #ffeaa7;
+			width: 550px;
+			height: 85px;
+		}
+	</style>
+</head>
+<body>
+	<center><div class="Pai">
+		<br>
+		<h1>Orientações contra o COVID-19</h1>
+		<button class="botao" id="botao1" onclick="mostrarTexto()">Você é idoso?</button>
+		<p>
+		<button class="botao" id="botao2" onclick="verTexto()">Sofre de problemas respiratórios?</button>
+		<p>
+		<button class="botao" id="botao3" onclick="aparecerTexto()">É diabético?</button>
+		<p>
+		<button class="botao" id="botao4" onclick="surgirTexto()">É saudável?</button>
+	</div>
+	<div class="esconder" id="texto"></div>
+</body>
+<script src="script.js">
+	
+</script>
+</html>
